@@ -25,7 +25,7 @@ if option == "Upload Image":
         st.image(annotated_frame, channels="BGR")
 
 elif option == "Open Camera":
-    class YOLOTransformer(VideoTransformerBase):
+    class YOLOTransformer(VideoProcessorBase):
         def transform(self, frame):
             img = frame.to_ndarray(format="bgr24")
 
