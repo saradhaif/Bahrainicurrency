@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 from PIL import Image
-from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
+from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 
 st.title("YOLO Object Detection")
 
