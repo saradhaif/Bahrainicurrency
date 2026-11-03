@@ -1,1 +1,1 @@
-# Bahrainicurrency
+# Bahraini currency classification
